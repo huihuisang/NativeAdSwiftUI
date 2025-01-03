@@ -10,6 +10,7 @@
 		9FA621A32D27891A00F489C5 /* NativeAdSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA621A22D27891A00F489C5 /* NativeAdSwiftUI */; };
 		9FA621A62D27BE7C00F489C5 /* NativeAdSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA621A52D27BE7C00F489C5 /* NativeAdSwiftUI */; };
 		9FA621A92D27BEFA00F489C5 /* NativeAdSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA621A82D27BEFA00F489C5 /* NativeAdSwiftUI */; };
+		9FA621BF2D27C6A300F489C5 /* NativeAdSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA621BE2D27C6A300F489C5 /* NativeAdSwiftUI */; };
 		A81C3A4B28786EFF002BFF3B /* InterstitialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C3A4928786EFF002BFF3B /* InterstitialContentView.swift */; };
 		A83160CD286DF6A8007B34CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7446A2864F75B00327C12 /* Assets.xcassets */; };
 		A83664782BADFFA400F4183A /* RewardedInterstitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83664772BADFFA400F4183A /* RewardedInterstitialViewModel.swift */; };
@@ -54,6 +55,7 @@
 			files = (
 				9FA621A62D27BE7C00F489C5 /* NativeAdSwiftUI in Frameworks */,
 				9FA621A92D27BEFA00F489C5 /* NativeAdSwiftUI in Frameworks */,
+				9FA621BF2D27C6A300F489C5 /* NativeAdSwiftUI in Frameworks */,
 				9FA621A32D27891A00F489C5 /* NativeAdSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +217,7 @@
 			);
 			mainGroup = A8C744622864F75A00327C12;
 			packageReferences = (
-				9FA621A72D27BEFA00F489C5 /* XCLocalSwiftPackageReference "NativeAdSwiftUI" */,
+				9FA621BD2D27C6A300F489C5 /* XCLocalSwiftPackageReference "../NativeAdSwiftUI" */,
 			);
 			productRefGroup = A8C744702864F75B00327C12 /* Products */;
 			projectDirPath = "";
@@ -471,9 +473,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		9FA621A72D27BEFA00F489C5 /* XCLocalSwiftPackageReference "NativeAdSwiftUI" */ = {
+		9FA621BD2D27C6A300F489C5 /* XCLocalSwiftPackageReference "../NativeAdSwiftUI" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = NativeAdSwiftUI;
+			relativePath = ../NativeAdSwiftUI;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -499,6 +501,10 @@
 			productName = NativeAdSwiftUI;
 		};
 		9FA621A82D27BEFA00F489C5 /* NativeAdSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NativeAdSwiftUI;
+		};
+		9FA621BE2D27C6A300F489C5 /* NativeAdSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NativeAdSwiftUI;
 		};
